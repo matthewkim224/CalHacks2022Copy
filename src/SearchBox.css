@@ -1,0 +1,44 @@
+.result {
+  width: 600px;
+  height: 165px;
+  padding: 10px;
+  text-align: left;
+  background: white;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.result-table {
+  width: 100%;
+  height: 100%;
+}
+.result-table-image {
+  text-align: right;
+  margin: 5px;
+}
+.result-table-text {
+  vertical-align: top;
+  font-size: medium;
+  line-height: 30px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.searchBox {
+  padding-left: 10px;
+  padding-right: 10px;
+  /* position: absolute; */
+  /* top: 105px;
+    right: 20px; */
+  /* float: right; */
+  width: 600px;
+  height: 85vh;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
